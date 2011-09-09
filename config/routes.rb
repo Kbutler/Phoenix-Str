@@ -1,4 +1,12 @@
 PhoenixStr::Application.routes.draw do
+  get "page/page1"
+
+  get "page/page2"
+
+  get "page/page3"
+
+  get "page/page4"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

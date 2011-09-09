@@ -1,4 +1,5 @@
 class PageController < ApplicationController
+  http_basic_authenticate_with :name => "phoenix", :password => "phoenix"
   def page1
   end
 

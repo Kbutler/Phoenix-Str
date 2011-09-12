@@ -1,0 +1,27 @@
+@import "constants";
+
+h1, h2, h3 {
+  margin:.8em 0 .2em 0;
+  padding:0;
+  @include font-style;
+  color:$h-color;
+}
+
+h1
+{
+  text-transform: uppercase;
+  font-size:$h1-size;
+  font-weight: bold;
+}
+
+h2
+{
+  font-size:$h2-size;
+  font-weight: bold;
+}
+
+h3
+{
+  font-size:$h3-size;
+  font-weight:normal;
+}

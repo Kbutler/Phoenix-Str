@@ -1,0 +1,86 @@
+/* Main menu settings */
+@import "constants";
+
+#centeredmenu {
+   background:$palette-color1;
+   @include font-style;
+   font-size: $h3-size;
+}
+
+#centeredmenu {
+   float:left;
+   width:$whole_page;
+   overflow:hidden;
+   position:relative;
+   margin-bottom:$margin1;
+}
+
+#centeredmenu ul {
+   clear:left;
+   float:left;
+   list-style:none;
+   margin:$margin0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+
+#centeredmenu ul li {
+   display:block;
+   float:left;
+   list-style:none;
+   margin:$margin0;
+   padding:0;
+   position:relative;
+   right:50%;
+}
+
+#centeredmenu ul li a {
+   display:block;
+   margin:0 0 0 1px;
+   padding:3px 10px;
+   text-decoration:none;
+   line-height:1.3em;
+ }
+
+#centeredmenu ul li a{
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* What it looks like normally. */
+#centeredmenu ul li a {
+	background:$palette-color1;
+	color:$palette-color3;
+}
+
+/* Currently selected tab item and when you move mouse over it. */
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   background:$palette-color3;
+   color:$palette-color1;
+   font-weight:bold;
+}
+
+/* IE6 & below. */
+#centeredmenu ul li.active a,
+#centeredmenu ul li.hover a {
+   background:$palette-color3;
+   color:$palette-color1;
+   font-weight:bold;
+}
+
+/* Move mouse over a non selected menu item. */
+#centeredmenu ul li a:hover,
+#centeredmenu ul li:hover a{
+	background:$palette-color3; /* Top menu items background colour */
+	color:$palette-color1;
+}
+
+#centeredmenu ul li.hover ul li a { /* This line is required for IE 6 and below */
+	background:$palette-color3;
+	color:$palette-color1;
+}

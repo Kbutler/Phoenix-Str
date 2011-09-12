@@ -1,0 +1,20 @@
+@import "constants";
+
+/* Header styles */
+
+#header {
+  clear:both;
+  float:left;
+  width:$whole-page;
+}
+
+#header p {
+  padding:1em 15px 0 15px;
+  margin:$margin0;
+  font-size:$h1-size;
+  font-weight:bold;
+  @include font-style;
+  background:$palette-color1;
+  color:$palette-color3;
+
+}

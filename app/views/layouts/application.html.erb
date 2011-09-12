@@ -1,18 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>PhoenixStr | <%= @title %></title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <div id="header">
-    <%= image_tag(@header_img , :alt => "Sample App", :class => "round") %>
-    </a>
-    <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde & Geburtshilfe</p> 
 
-  </div> <!-- header -->
+  <head>
+    <title>PhoenixStr | <%= @title %></title>
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+    
+  <body>
+    <div id="header">
+      <%= image_tag(@header_img , :alt => "Sample App", :class => "header_img") %>
+      <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde & Geburtshilfe</p>
+    </div> <!-- header -->
+    
+    <div id="centeredmenu">
+      <ul>
+        <li><a href="#">Tab one</a></li>
+        <li><a href="#" class="active">Tab two</a></li>
+        <li><a href="#">Tab three</a></li>
+        <li><a href="#">Tab four</a></li>
+        <li><a href="#">Tab four</a></li>
+        <li><a href="#">Tab four</a></li>
+        <li><a href="#">Tab four</a></li>
+        <li><a href="#">Tab four</a></li>
+        <li><a href="#">Tab four</a></li>
+      </ul>
+    </div> <!-- centeredmenu -->
+
+
+    <div class="colmask leftmenu">
+      <div class="colright">
+        <div class="col1wrap">
+          <div class="col1">
+            <!-- Column 2 start -->
+            <h1>Christina Heading 1 Example</h1>
+            <h2>Christina Heading 2 Example</h2>
+            <h3>Christina Heading 3 Example</h3>
+
+            <h1>Christina Heading 1 Example</h1>
+            <p>With a paragraph of text.</p>
+
+            <h2>Christina Heading 2 Example</h2>
+            <p>With a paragraph of text.</p>
+
+            <h3>Christina Heading 3 Example</h3>
+            <p>With a paragraph of text.</p>
+
+            <h1>Christina Heading n1 Example</h1>
+            <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
+            <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
+            <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
+
+
+          <!-- Column 2 end -->
+          </div>
+  
+        </div> <!-- class="col1wrap" -->
+
+        <div class="col2">
+          <!-- Column 1 start -->
+          <%= image_tag(@wallpaper_img , :alt => "Sample App", :class => "wallpaper_img") %>
+          <!-- Column 1 end -->
+
+        </div> <!--  class="col2" -->
+      </div> <!-- class="colright" -->
+    </div> <!-- class="colmask leftmenu" -->
+
+    <div id="thankYouNote">
+      <p>Thankyou for visiting www.WebAddress.de/ Christina to expand text here</p>
+    </div>
+    <div id="footer">
+      <p>DR. FIRST LAST NAME. Praxis für Frauenheilkunde &amp; Geburtshilfe :: Address, Phone, Fax</p>
+    </div>
+
+
+
+
+
+
+
+
 
 <%= yield %>
 

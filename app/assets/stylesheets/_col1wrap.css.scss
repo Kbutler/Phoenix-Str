@@ -1,0 +1,9 @@
+@import "constants";
+
+.leftmenu .col1wrap {
+  float:right;
+  width:50%;
+  position:relative;
+  right:$col1wrapRight-width;
+  padding-bottom:1em;
+}

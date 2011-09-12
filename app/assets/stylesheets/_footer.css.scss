@@ -1,0 +1,14 @@
+/* Footer styles */
+@import "constants";
+
+#footer {
+  clear:both;
+  float:left;
+  width:$whole-page;
+  border-top:1px solid #000;
+}
+
+#footer p {
+  padding:10px;
+  margin:0;
+}

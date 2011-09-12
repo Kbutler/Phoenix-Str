@@ -1,3 +1,94 @@
 // Place all the styles related to the Page controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "body";
+@import "header";
+@import "images";
+@import "centeredmenu";
+@import "headers";
+@import "paras";
+@import "footer";
+@import "col2";
+@import "col1";
+@import "col1wrap";
+@import "colright";
+@import "colmask";
+@import "constants";
+
+/* <!-- */
+    /* General styles */
+
+#thankYouNote{
+  display : none; 
+}
+
+.leftmenu .colright {
+  background:$palette-color2;
+}
+
+.leftmenu {
+  background:$palette-color1;
+}
+
+
+a {
+  color:#369;
+}
+
+a:hover {
+  background:#369;
+  color:#fff;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+
+/*
+body{
+  background:purple;
+}
+#header{
+  background:green;
+}*/
+
+
+/*#headerwrapper{*/
+
+/*
+#headerBild{
+  background:red;
+}
+#centeredmenu{
+  background:yellow;
+}
+.colmask{
+  background:blue;
+}*/
+
+
+/* On top of colmask*/
+/*.leftmenu{
+  background:pink;
+}
+.colright{
+  background:black;
+}
+.colwrap{
+  background:black;
+}
+.col1{
+  background:violet;
+}
+.col2{
+  background:yellow;
+}
+
+.leftmenu .colright {
+  background:turquoise;
+}
+*/
+
+    /* --> */

@@ -1,0 +1,12 @@
+@import "constants";
+
+.leftmenu .colright {
+        float:left;
+        width:200%;
+	position:relative;
+	left:$colright-width;
+    }
+
+.colright {
+  margin-bottom:$margin1;
+}

@@ -1,0 +1,16 @@
+@import "constants";
+
+/* General styles */
+body {
+  margin:$margin0;
+  padding:0;
+  border:0;	/* This removes the border around the viewport in old versions of IE */
+  width:$whole_page;
+  min-width:600px; /* Minimum width of layout - remove line if not required */
+		   /* The min-width property does not work in old versions of Internet Explorer */
+}
+
+body {
+  font-size:$max-font;
+  background:$palette-color1;
+}

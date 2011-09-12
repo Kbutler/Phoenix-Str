@@ -1,0 +1,20 @@
+@import "constants";
+
+p {
+  text-decoration: none;
+  padding:0;
+  margin:.4em 0 .8em 0;
+/*  margin: 0 0 10px 0;*/
+  line-height: 18px;
+}
+
+p {
+  font-size: $p-size;
+  @include font-style;
+  color:$p-color;
+}
+
+/*
+set up a new para instead of original h2, so i can use h1,h2,h3,h4 and not h1,h3,h4.
+
+*/

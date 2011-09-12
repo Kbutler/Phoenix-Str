@@ -1,0 +1,9 @@
+/* this has the picure in it on the left hand side.*/
+@import "constants";
+
+.leftmenu .col2 {
+  float:left;
+  width:$wallpaper-width;
+  position:relative;
+  right:$col2Right-width;
+}

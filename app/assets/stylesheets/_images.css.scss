@@ -1,0 +1,10 @@
+.header_img {
+  display:block;
+  float:right;
+  position:relative;
+  right:0%;
+  width:70%; /* control the size of the image. */
+  height:auto;
+  -ms-interpolation-mode: bicubic;
+  border:0;
+}

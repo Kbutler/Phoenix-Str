@@ -10,6 +10,7 @@ gem 'sqlite3'
 gem 'heroku'
 gem 'execjs'
 gem 'therubyracer'
+gem 'pg'
 
 
 # Gems used only for assets and not required

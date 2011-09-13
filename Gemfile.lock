@@ -80,7 +80,7 @@ GEM
       activerecord (= 3.1.0)
       activeresource (= 3.1.0)
       activesupport (= 3.1.0)
-      bundler (~> 1.0)
+      bundler
       railties (= 3.1.0)
     railties (3.1.0)
       actionpack (= 3.1.0)

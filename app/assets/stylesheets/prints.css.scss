@@ -1,0 +1,29 @@
+@import "headers";
+@import "footer";
+@import "colors";
+
+body {
+  font-family: Georgia, serif;
+  background: none;
+  color: black;
+  width: 100%;
+  margin: 0; padding: 0;
+}
+
+h1, h2, h3, #thankYouNote {
+  font-family: Georgia, serif;
+  color:$palette-color2o;
+}
+
+.entry a:after {
+        content: " [" attr(href) "] ";
+}
+/*
+a {
+  text-decoration : underline;
+  color : #0000ff;
+}*/
+
+#header, #centeredmenu, #col2, #wallpaper { 
+  display : none; 
+}

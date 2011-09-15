@@ -2,9 +2,24 @@
   display:block;
   float:right;
   position:relative;
+  padding-top:8px;
   right:0%;
-  width:70%; /* control the size of the image. */
+  width:40%; /* control the size of the image. */
   height:auto;
   -ms-interpolation-mode: bicubic;
   border:0;
+}
+
+.logo_img {
+  display:block;
+  float:left;
+  position:relative;
+  right:0%;
+  width:6%; /* control the size of the image. */
+  height:auto;
+  -ms-interpolation-mode: bicubic;
+  border:0;
+  padding-right:15px;
+  padding-left:15px;
+  padding-top:15px;
 }

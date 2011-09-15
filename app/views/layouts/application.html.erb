@@ -3,15 +3,27 @@
 
   <head>
     <title>PhoenixStr | <%= @title %></title>
-    <%= stylesheet_link_tag    "application" %>
+    <%= favicon_link_tag @favicon_img %>
+    <%= stylesheet_link_tag    "application", :media => "screen" %>
+    <%= stylesheet_link_tag    "print",       :media => "print"  %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
     
   <body>
-    <div id="header">
-      <%= image_tag(@header_img , :alt => "Missing Header", :class => "header_img") %>
+
+    <div id="printLogo">
+       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_img") %>
       <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde & Geburtshilfe</p>
+    </div>
+    <div id="printThankYouNote">
+      <p>Thankyou for visiting www.WebAddress.de/ </p>
+    </div>
+    
+    <div id="header">
+      <%= image_tag(@logo_img,   :alt => "Missing logo",   :class => "logo_img") %>
+      <%= image_tag(@header_img, :alt => "Missing Header", :class => "header_img") %>
+      <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde <br/> & Geburtshilfe</p>
     </div> <!-- header -->
     
     <div id="centeredmenu">
@@ -19,6 +31,11 @@
         <li><%= link_to "Page 1", page_page1_path %></li>
         <li><%= link_to "Page 2", page_page2_path %></li>
         <li><%= link_to "Page 3", page_page3_path %></li>
+        <li><%= link_to "Page 4", page_page4_path %></li>
+        <li><%= link_to "Page 4", page_page4_path %></li>
+        <li><%= link_to "Page 4", page_page4_path %></li>
+        <li><%= link_to "Page 4", page_page4_path %></li>
+        <li><%= link_to "Page 4", page_page4_path %></li>
         <li><%= link_to "Page 4", page_page4_path %></li>
         <li><a href="/page/page1" class="active">Page 5</a></li>
       </ul>
@@ -46,9 +63,7 @@
       </div> <!-- class="colright" -->
     </div> <!-- class="colmask leftmenu" -->
 
-    <div id="thankYouNote">
-      <p>Thankyou for visiting www.WebAddress.de/ Christina to expand text here</p>
-    </div>
+
     <div id="footer">
       <p>DR. FIRST LAST NAME. Praxis für Frauenheilkunde &amp; Geburtshilfe :: Address, Phone, Fax</p>
     </div>

@@ -1,6 +1,7 @@
 @import "headers";
 @import "footer";
 @import "colors";
+@import "images";
 
 body {
   font-family: Georgia, serif;
@@ -10,7 +11,9 @@ body {
   margin: 0; padding: 0;
 }
 
-h1, h2, h3, #thankYouNote {
+#printLogo{}
+
+h1, h2, h3, #printThankYouNote {
   font-family: Georgia, serif;
   color:$palette-color2o;
 }
@@ -24,6 +27,6 @@ a {
   color : #0000ff;
 }*/
 
-#header, #centeredmenu, #col2, #wallpaper { 
+#header, #centeredmenu, .col2, { 
   display : none; 
 }

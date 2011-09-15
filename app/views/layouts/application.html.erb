@@ -12,18 +12,22 @@
     
   <body>
 
-    <div id="printLogo">
-       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_img") %>
-      <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde & Geburtshilfe</p>
-    </div>
-    <div id="printThankYouNote">
-      <p>Thankyou for visiting www.WebAddress.de/ </p>
+    <div id="headerPrint">
+      <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
+      <p> <%= @fullName   %> <br/>
+          <%= @jobTitleP1 %> <br/> &
+          <%= @jobTitleP2 %> <br/>
+          <%= @address    %> <br/>
+          <%= @phoneNum   %> <br/>
+          <%= @faxNum     %>
+      </p> 
+      <p><br/><br/><br/>Thankyou for visiting www.WebAddress.de/ </p>
     </div>
     
     <div id="header">
       <%= image_tag(@logo_img,   :alt => "Missing logo",   :class => "logo_img") %>
       <%= image_tag(@header_img, :alt => "Missing Header", :class => "header_img") %>
-      <p>DR. Foreame Surname</br>Praxis für Frauenheilkunde <br/> & Geburtshilfe</p>
+      <p><%= @fullName %></br> <%=@jobTitleP1 %> <br/> & <%= @jobTitleP2 %></p>
     </div> <!-- header -->
     
     <div id="centeredmenu">
@@ -65,7 +69,13 @@
 
 
     <div id="footer">
-      <p>DR. FIRST LAST NAME. Praxis für Frauenheilkunde &amp; Geburtshilfe :: Address, Phone, Fax</p>
+      <p> <%= @fullName   %>
+          <%= @jobTitleP1 %>&
+          <%= @jobTitleP2 %>
+          <%= @address    %>
+          <%= @phoneNum   %>
+          <%= @faxNum     %>
+      </p> 
     </div>
 
 </body>

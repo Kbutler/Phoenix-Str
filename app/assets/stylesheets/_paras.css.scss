@@ -1,4 +1,6 @@
 @import "colors";
+@import "fonts";
+@import "widths";
 
 p {
   text-decoration: none;
@@ -14,6 +16,16 @@ p {
   color:$p-color;
 }
 
+#header p, #printLogo p {
+  padding:1em 15px 0 15px;
+  margin:$margin0;
+  font-size:$h1-size;
+  font-weight:bold;
+  @include font-style;
+  background:$palette-color1;
+  color:$palette-color3;
+
+}
 /*
 set up a new para instead of original h2, so i can use h1,h2,h3,h4 and not h1,h3,h4.
 

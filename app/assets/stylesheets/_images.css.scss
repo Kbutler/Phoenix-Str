@@ -23,3 +23,15 @@
   padding-left:15px;
   padding-top:15px;
 }
+
+.logo_print_img {
+  display:block;
+  float:left;
+  position:relative;
+  right:0%;
+  width:12%; /* control the size of the image. */
+  height:auto;
+  -ms-interpolation-mode: bicubic;
+  border:0;
+  padding-right:15px;
+}

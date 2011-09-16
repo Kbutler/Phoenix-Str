@@ -12,7 +12,7 @@ class PageController < ApplicationController
 
   def page1
     @title         = "Home"
-    @header_img    = "try2.jpg"
+    @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_home.jpg"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img
@@ -40,7 +40,7 @@ class PageController < ApplicationController
 
   def page3
     @title         = "Kentenich"
-    @header_img    = "header_kentenich.jpg"
+    @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_kentenich.jpg"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img

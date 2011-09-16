@@ -1,0 +1,559 @@
+/*
+ * This is a manifest file that'll automatically include all the stylesheets available in this directory
+ * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
+ * the top of the compiled file, but it's generally better to create a new file per style scope.
+*/
+/*
+Switch between these so the generated output can be copied to Phoenix-Dev
+@import "page.css.scss";
+@import "print.css.scss";
+*/
+/*********************************************************
+**
+** Colors
+**
+*********************************************************/
+/* Light Pink*/
+/* Light green, opposite 1*/
+/* White*/
+/* Black*/
+/* Dark Purple*/
+/*********************************************************
+**
+** Fonts
+**
+*********************************************************/
+/*0.750em;*/
+/*12px;*/
+/*0.875em;*/
+/*14px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*********************************************************
+**
+** Margins
+**
+*********************************************************/
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* General styles */
+/* line 7, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_body.css.scss */
+body {
+  margin: 0px;
+  padding: 0;
+  border: 0;
+  /* This removes the border around the viewport in old versions of IE */
+  width: 100%;
+  min-width: 600px;
+  /* Minimum width of layout - remove line if not required */
+  /* The min-width property does not work in old versions of Internet Explorer */
+}
+
+/* line 16, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_body.css.scss */
+body {
+  font-size: 100%;
+  background: #f5e6ec;
+}
+
+/*********************************************************
+**
+** Colors
+**
+*********************************************************/
+/* Light Pink*/
+/* Light green, opposite 1*/
+/* White*/
+/* Black*/
+/* Dark Purple*/
+/*********************************************************
+**
+** Fonts
+**
+*********************************************************/
+/*0.750em;*/
+/*12px;*/
+/*0.875em;*/
+/*14px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* Header styles */
+/* line 7, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_header.css.scss */
+#header {
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+/* line 1, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_images.css.scss */
+.header_img {
+  display: block;
+  float: right;
+  position: relative;
+  /*  padding-top:8px;*/
+  right: 0%;
+  width: 40%;
+  /* control the size of the image. */
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+/* line 13, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_images.css.scss */
+.logo_img {
+  display: block;
+  float: left;
+  position: relative;
+  right: 0%;
+  width: 6%;
+  /* control the size of the image. */
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+/* line 27, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_images.css.scss */
+.logo_print_img {
+  display: block;
+  float: left;
+  position: relative;
+  right: 0%;
+  width: 12%;
+  /* control the size of the image. */
+  height: auto;
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  padding-right: 15px;
+}
+
+/* Main menu settings */
+/*********************************************************
+**
+** Colors
+**
+*********************************************************/
+/* Light Pink*/
+/* Light green, opposite 1*/
+/* White*/
+/* Black*/
+/* Dark Purple*/
+/*********************************************************
+**
+** Margins
+**
+*********************************************************/
+/* line 5, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu {
+  background: #f5e6ec;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 90%;
+}
+
+/* line 11, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* line 19, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul {
+  clear: left;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  text-align: center;
+}
+
+/* line 30, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li {
+  display: block;
+  float: left;
+  list-style: none;
+  margin: 0px;
+  padding: 0;
+  position: relative;
+  right: 50%;
+}
+
+/* line 40, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li a {
+  display: block;
+  margin: 0 0 0 1px;
+  padding: 3px 10px;
+  text-decoration: none;
+  line-height: 1.3em;
+}
+
+/* line 48, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li a {
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -khtml-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* What it looks like normally. */
+/* line 56, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li a {
+  background: #f5e6ec;
+  color: #9d0054;
+}
+
+/* Currently selected tab item and when you move mouse over it. */
+/* line 63, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+  background: #9d0054;
+  color: #f5e6ec;
+  font-weight: bold;
+}
+
+/* IE6 & below. */
+/* line 71, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li.active a,
+#centeredmenu ul li.hover a {
+  background: #9d0054;
+  color: #f5e6ec;
+  font-weight: bold;
+}
+
+/* Move mouse over a non selected menu item. */
+/* line 79, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li a:hover,
+#centeredmenu ul li:hover a {
+  background: #9d0054;
+  /* Top menu items background colour */
+  color: #f5e6ec;
+}
+
+/* line 84, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_centeredmenu.css.scss */
+#centeredmenu ul li.hover ul li a {
+  /* This line is required for IE 6 and below */
+  background: #9d0054;
+  color: #f5e6ec;
+}
+
+/*********************************************************
+**
+** Colors
+**
+*********************************************************/
+/* Light Pink*/
+/* Light green, opposite 1*/
+/* White*/
+/* Black*/
+/* Dark Purple*/
+/*********************************************************
+**
+** Fonts
+**
+*********************************************************/
+/*0.750em;*/
+/*12px;*/
+/*0.875em;*/
+/*14px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/* line 4, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_headers.css.scss */
+h1, h2, h3 {
+  margin: .8em 0 .2em 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #9d0054;
+}
+
+/* line 12, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_headers.css.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 100%;
+  font-weight: bold;
+}
+
+/* line 19, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_headers.css.scss */
+h2 {
+  font-size: 95%;
+  font-weight: bold;
+}
+
+/* line 25, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_headers.css.scss */
+h3 {
+  font-size: 90%;
+  font-weight: normal;
+}
+
+/*********************************************************
+**
+** Colors
+**
+*********************************************************/
+/* Light Pink*/
+/* Light green, opposite 1*/
+/* White*/
+/* Black*/
+/* Dark Purple*/
+/*********************************************************
+**
+** Fonts
+**
+*********************************************************/
+/*0.750em;*/
+/*12px;*/
+/*0.875em;*/
+/*14px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*0.750em;*/
+/*12px;*/
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* line 5, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_paras.css.scss */
+p {
+  text-decoration: none;
+  padding: 0;
+  margin: .4em 0 .8em 0;
+  /*  margin: 0 0 10px 0;*/
+  line-height: 18px;
+}
+
+/* line 13, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_paras.css.scss */
+p {
+  font-size: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666666;
+}
+
+/* line 19, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_paras.css.scss */
+#header p, #printLogo p {
+  padding: 1em 15px 0 15px;
+  margin: 0px;
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5e6ec;
+  color: #9d0054;
+}
+
+/*
+set up a new para instead of original h2, so i can use h1,h2,h3,h4 and not h1,h3,h4.
+
+*/
+/* Footer styles */
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* line 4, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_footer.css.scss */
+#footer {
+  clear: both;
+  float: left;
+  width: 100%;
+  border-top: 1px solid #000;
+}
+
+/* line 11, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_footer.css.scss */
+#footer p {
+  padding: 10px;
+  margin: 0;
+}
+
+/* this has the picure in it on the left hand side.*/
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* line 4, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_col2.css.scss */
+.leftmenu .col2 {
+  float: left;
+  width: 197px;
+  position: relative;
+  right: 212px;
+}
+
+/* This has got the header exmaples in it. */
+/* line 2, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_col1.css.scss */
+.leftmenu .col1 {
+  margin: 0 15px 0 242px;
+  position: relative;
+  right: 100%;
+  overflow: hidden;
+}
+
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* line 3, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_col1wrap.css.scss */
+.leftmenu .col1wrap {
+  float: right;
+  width: 50%;
+  position: relative;
+  right: 227px;
+  padding-bottom: 1em;
+}
+
+/*********************************************************
+**
+** Margins
+**
+*********************************************************/
+/*********************************************************
+**
+** Widths
+**
+*********************************************************/
+/*$wallpaper-width +$margin-width;*/
+/*$wallpaper-width + $margin-width + $margin-width;*/
+/*$col1wrapRight-width;*/
+/* line 4, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_colright.css.scss */
+.leftmenu .colright {
+  float: left;
+  width: 200%;
+  position: relative;
+  left: 227px;
+}
+
+/* line 11, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_colright.css.scss */
+.colright {
+  margin-bottom: 15px;
+}
+
+/* column container */
+/* line 2, /home/kbutler/Phoenix-Str/app/assets/stylesheets/_colmask.css.scss */
+.colmask {
+  position: relative;
+  /* Fixes  IE7 overflow bug & stops the layout jumping out of place */
+  clear: both;
+  float: left;
+  width: 98%;
+  /* width of whole page */
+  overflow: hidden;
+  /* This chops off any overhanging divs */
+}
+
+/* <!-- */
+/* General styles */
+/* line 21, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+#headerPrint {
+  display: none;
+}
+
+/* line 25, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+.leftmenu .colright {
+  background: white;
+}
+
+/* line 29, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+.leftmenu {
+  background: #f5e6ec;
+}
+
+/* line 34, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+a {
+  color: #369;
+}
+
+/* line 38, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+a:hover {
+  background: #369;
+  color: #fff;
+}
+
+/* line 43, /home/kbutler/Phoenix-Str/app/assets/stylesheets/page.css.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/*
+body{
+  background:purple;
+}
+#header{
+  background:green;
+}*/
+/*#headerwrapper{*/
+/*
+#headerBild{
+  background:red;
+}
+#centeredmenu{
+  background:yellow;
+}
+.colmask{
+  background:blue;
+}*/
+/* On top of colmask*/
+/*.leftmenu{
+  background:pink;
+}
+.colright{
+  background:black;
+}
+.colwrap{
+  background:black;
+}
+.col1{
+  background:violet;
+}
+.col2{
+  background:yellow;
+}
+
+.leftmenu .colright {
+  background:turquoise;
+}
+*/
+/* --> */

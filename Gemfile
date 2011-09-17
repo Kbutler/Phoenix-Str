@@ -14,8 +14,6 @@ end
 
 gem 'heroku'
 gem 'thin'
-gem 'execjs'
-gem 'therubyracer', '>= 0.8.2'
 
 
 # Gems used only for assets and not required

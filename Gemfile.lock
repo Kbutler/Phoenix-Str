@@ -59,7 +59,6 @@ GEM
       thor (~> 0.14)
     launchy (2.0.5)
       addressable (~> 2.2.6)
-    libv8 (3.3.10.2)
     mail (2.3.0)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -108,8 +107,6 @@ GEM
       tilt (!= 1.3.0, ~> 1.1)
     sqlite3 (1.3.4)
     term-ansicolor (1.0.6)
-    therubyracer (0.9.4)
-      libv8 (~> 3.3.10)
     thin (1.2.11)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -131,14 +128,12 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.1.0)
-  execjs
   heroku
   jquery-rails
   postgres-pr
   rails (= 3.1.0)
   sass-rails (~> 3.1.0)
   sqlite3
-  therubyracer (>= 0.8.2)
   thin
   turn
   uglifier

@@ -1,7 +1,7 @@
 class PageController < ApplicationController
   http_basic_authenticate_with :name => "phoenix", :password => "phoenix"
     
-  @@locallogo_img      = "logo-com.gif"
+  @@locallogo_img      = "logo.gif"
   @@localfavicon_img   = 'favicon.ico'
   @@fullName           = "Dr. Forename Surname"
   @@address            = "Add Address Here"
@@ -28,6 +28,8 @@ class PageController < ApplicationController
     @title         = "Kurse"
     @header_img    = "header_kurse.jpg"
     @wallpaper_img = "wallpaper_kurse.jpg"
+    @welcome_img   = "welcome.gif"
+    @signature_img = "kentenich_signature.gif"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img
     @fullName      = @@fullName

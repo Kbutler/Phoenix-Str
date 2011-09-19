@@ -1,7 +1,7 @@
 class PageController < ApplicationController
   http_basic_authenticate_with :name => "phoenix", :password => "phoenix"
     
-  @@locallogo_img      = "logo.gif"
+  @@locallogo_img      = "logo-com.gif"
   @@localfavicon_img   = 'favicon.ico'
   @@fullName           = "Dr. Forename Surname"
   @@address            = "Add Address Here"

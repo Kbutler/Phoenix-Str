@@ -35,3 +35,15 @@
   border:0;
   padding-right:15px;
 }
+
+.info_img {
+  display:block;
+  float:left;
+  position:relative;
+  right:0%;
+  width:30%; /* control the size of the image. */
+  height:auto;
+  -ms-interpolation-mode: bicubic;
+  border:0;
+  padding-right:15px;
+}

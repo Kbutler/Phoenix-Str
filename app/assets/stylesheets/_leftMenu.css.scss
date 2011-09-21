@@ -2,24 +2,35 @@
 
 /* 2 Column (left menu) settings */
 
+$fullWidth:1;
+$padding:0.02;
+$rightColumnWidth:0.80;
+$leftColumnWidth:0.20;
+
+$rightColumnContentWidth: percentage($rightColumnWidth - $padding - $padding);
+$leftColumnContentWidth:  percentage($leftColumnWidth - $padding - $padding);
+$leftColumnContentOffset: percentage($padding + $padding + $padding);
+
+
+
 .leftmenu {
   /*background:red;*/		/* right column background colour */
 }
 
 .leftmenu .colleft {
-  right:86%;		/* right column width */
+  right:percentage($rightColumnWidth);		/* 86% 75% right column width */
   /*background:green;*/	/* left column background colour */
 }
 
 .leftmenu .col1 {
-  width:82%;		/* right column content width */
-  left:102%;		/* 100% plus left column left padding */
+  width:$rightColumnContentWidth;		/* 82% 71% right column content width */
+  left:percentage($fullWidth + $padding);		/* 102% plus left column left padding */
   /*background:blue;*/
 }
 
 .leftmenu .col2 {
-  width:10%;		/* left column content width (column width minus left and right padding) */
-  left:6%;		/* (right column left and right padding) plus (left column left padding) */
+  width:$leftColumnContentWidth;		/* 10% 21% left column content width (column width minus left and right padding) */
+  left:$leftColumnContentOffset;		/* 6% (right column left and right padding) plus (left column left padding) */
   /*background:yellow;*/
 }
         

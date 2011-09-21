@@ -1,0 +1,26 @@
+/* ============ Start _leftMenu ============================================== */
+
+/* 2 Column (left menu) settings */
+
+.leftmenu {
+  /*background:red;*/		/* right column background colour */
+}
+
+.leftmenu .colleft {
+  right:86%;		/* right column width */
+  /*background:green;*/	/* left column background colour */
+}
+
+.leftmenu .col1 {
+  width:82%;		/* right column content width */
+  left:102%;		/* 100% plus left column left padding */
+  /*background:blue;*/
+}
+
+.leftmenu .col2 {
+  width:10%;		/* left column content width (column width minus left and right padding) */
+  left:6%;		/* (right column left and right padding) plus (left column left padding) */
+  /*background:yellow;*/
+}
+        
+/* ============ End   _leftMenu ============================================== */

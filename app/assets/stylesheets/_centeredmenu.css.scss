@@ -1,6 +1,7 @@
-/* Main menu settings */
 @import "colors";
 @import "margins";
+
+/* ============ Start _centeredMenu ========================================== */
 
 #centeredmenu {
    background:$palette-color1;
@@ -85,3 +86,5 @@
 	background:$palette-color3;
 	color:$palette-color1;
 }
+
+/* ============ End   _centeredMenu ========================================== */

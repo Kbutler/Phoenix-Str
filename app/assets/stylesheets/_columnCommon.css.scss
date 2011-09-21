@@ -1,0 +1,20 @@
+/* ============ Start _columnCommon ========================================== */
+
+.colright,
+.colmid,
+.colleft {
+  float:left;
+  width:100%;
+  position:relative;
+}
+
+.col1,
+.col2,
+.col3 {
+  float:left;
+  position:relative;
+  padding:0 0 1em 0;
+  overflow:hidden;
+}
+
+/* ============ End   _columnCommon ========================================== */

@@ -1,6 +1,8 @@
 @import "colors";
 @import "fonts";
 
+/* ============ Start _headers =============================================== */
+
 h1, h2, h3 {
   margin:.8em 0 .2em 0;
   padding:0;
@@ -26,3 +28,5 @@ h3
   font-size:$h3-size;
   font-weight:normal;
 }
+
+/* ============ End   _headers =============================================== */

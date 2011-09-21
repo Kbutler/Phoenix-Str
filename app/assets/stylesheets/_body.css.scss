@@ -3,7 +3,8 @@
 @import "margins";
 @import "widths";
 
-/* General styles */
+/* ============ Start _body ================================================== */
+
 body {
   margin:$margin0;
   padding:0;
@@ -15,3 +16,5 @@ body {
   font-size:$max-font; /* was 90% */
   background:$palette-color1;
 }
+
+/* ============ Start _body ================================================== */

@@ -1,3 +1,9 @@
+/* ============ Start _images ================================================ */
+
+img {
+  margin:10px 0 5px;
+}
+
 .header_img {
   display:block;
   float:right;
@@ -47,3 +53,16 @@
   border:0;
   padding-right:15px;
 }
+
+img#keb {
+	display:block;
+	float:right;
+	position:relative;
+	right:1%;
+	width:100%;
+	height:auto;
+	-ms-interpolation-mode: bicubic;
+	border:0;
+}
+
+/* ============ End   _images ================================================ */

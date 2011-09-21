@@ -1,9 +1,8 @@
 /* column container */
 .colmask {
-  position:relative;	/* Fixes  IE7 overflow bug & stops the layout jumping out of place */
+  position:relative;	/* This fixes the IE7 overflow hidden bug */
   clear:both;
   float:left;
-  width:98%;		/* width of whole page */
-  overflow:hidden;	/* This chops off any overhanging divs */
-	}
-
+  width:100%;			/* width of whole page */
+  overflow:hidden;		/* This chops off any overhanging divs */
+}

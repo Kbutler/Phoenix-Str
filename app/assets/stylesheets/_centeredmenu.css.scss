@@ -1,5 +1,6 @@
 @import "colors";
 @import "margins";
+@import "widths";
 
 /* ============ Start _centeredMenu ========================================== */
 
@@ -11,7 +12,7 @@
 
 #centeredmenu {
    float:left;
-   width:$whole_page;
+   width:$fullWidth;
    overflow:hidden;
    position:relative;
    margin-bottom:$margin1;

@@ -14,7 +14,7 @@
     <div id="headerPrint">
       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
       <p> <%= @fullName   %> <br/>
-          <%= @jobTitleP1 %> <br/> &
+          <%= @jobTitleP1 %> <br/> &amp
           <%= @jobTitleP2 %> <br/>
           <%= @address    %> <br/>
           <%= @phoneNum   %> <br/>
@@ -26,7 +26,9 @@
     <div id="header">
       <%= image_tag(@logo_img,   :alt => "Missing logo",   :class => "logo_img") %>
       <%= image_tag(@header_img, :alt => "Missing Header", :class => "header_img") %>
-      <p><%= @fullName %></br> <%=@jobTitleP1 %> <br/> & <%= @jobTitleP2 %></p>
+      <p> <%= @fullName   %> <br/>
+          <%= @jobTitleP1 %> <br/> &amp
+          <%= @jobTitleP2 %> </p>
     </div> <!-- header -->
     
     <div id="centeredmenu">
@@ -71,7 +73,7 @@
 
     <div id="footer">
       <p> <%= @fullName   %>
-          <%= @jobTitleP1 %>&
+          <%= @jobTitleP1 %> &mp
           <%= @jobTitleP2 %>
           <%= @address    %>
           <%= @phoneNum   %>

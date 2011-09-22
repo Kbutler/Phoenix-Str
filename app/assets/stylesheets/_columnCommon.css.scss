@@ -1,10 +1,12 @@
 /* ============ Start _columnCommon ========================================== */
 
+@import "widths";
+
 .colright,
 .colmid,
 .colleft {
   float:left;
-  width:100%;
+  width:$fullWidth;
   position:relative;
 }
 

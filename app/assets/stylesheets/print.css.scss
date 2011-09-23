@@ -1,32 +1,23 @@
 @import "headers";
-@import "footer";
 @import "colors";
 @import "images";
+@import "fonts";
+@import "paras";
 
-body {
-  font-family: Georgia, serif;
-  background: none;
-  color: black;
-  width: 100%;
-  margin: 0; padding: 0;
+.headerPrintText{
+  text-decoration: none;
+  padding:0;
+  margin:.4em 0 .8em 0;
+  line-height: 18px;
+  font-size: $p-size;
+  @include font-style;
+  color:$p-color;
 }
 
-#headerPrint{}
-
-h1, h2, h3, #printThankYouNote {
-  font-family: Georgia, serif;
+h1, h2, h3{
   color:$palette-color2o;
 }
 
-.entry a:after {
-        content: " [" attr(href) "] ";
-}
-/*
-a {
-  text-decoration : underline;
-  color : #0000ff;
-}*/
-
-#header, #centeredmenu, .col2, #footer{ 
+#header, .wallpaper_img, #centeredmenu, #footer {
   display : none; 
 }

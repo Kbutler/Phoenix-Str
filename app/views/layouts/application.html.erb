@@ -5,6 +5,7 @@
     <title>PhoenixStr. | <%= @title %></title>
     <%= favicon_link_tag @favicon_img %>
     <%= stylesheet_link_tag    "application", :media => "screen" %>
+    <%= stylesheet_link_tag    "print",       :media => "print" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
@@ -13,14 +14,14 @@
 
     <div id="headerPrint">
       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
-      <p> <%= @fullName   %> <br/>
+      <p class="headerPrintText"> <%= @fullName   %> <br/>
           <%= @jobTitleP1 %> <br/> &amp
           <%= @jobTitleP2 %> <br/>
           <%= @address    %> <br/>
           <%= @phoneNum   %> <br/>
           <%= @faxNum     %>
       </p> 
-      <p><br/><br/><br/>Thankyou for visiting www.WebAddress.de/ </p>
+      <p class="headerPrintText"><br/><br/><br/>Thankyou for visiting www.WebAddress.de/ </p>
     </div>
     
     <div id="header">
@@ -58,7 +59,7 @@
 
         <div class="col2">
           <!-- Column 2 start -->
-          <%= image_tag(@wallpaper_img, :alt => "Missing Header", :class => "keb") %>
+          <%= image_tag(@wallpaper_img, :alt => "Missing Header", :class => "wallpaper_img") %>
           <!-- Column 2 end -->
         </div> <!-- class = "col2" -->
       </div> <!-- class = "colleft" -->
@@ -73,7 +74,7 @@
 
     <div id="footer">
       <p> <%= @fullName   %>
-          <%= @jobTitleP1 %> &mp
+          <%= @jobTitleP1 %> &amp
           <%= @jobTitleP2 %>
           <%= @address    %>
           <%= @phoneNum   %>

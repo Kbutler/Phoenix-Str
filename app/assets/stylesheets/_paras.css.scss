@@ -1,5 +1,6 @@
 @import "colors";
 @import "fonts";
+@import "margins";
 
 /* ============ Start _paras ================================================= */
 
@@ -17,10 +18,10 @@ p {
   color:$p-color;
 }
 
-#header p, #printLogo p {
+#header p {
   padding:1em 15px 0 15px;
   margin:$margin0;
-  font-size:$h1-size;
+  font-size:$h2-size;
   font-weight:bold;
   @include font-style;
   background:$palette-color1;

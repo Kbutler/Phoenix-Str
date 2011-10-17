@@ -9,7 +9,7 @@
     <%= csrf_meta_tags %>
   </head>
     
-  <body>
+  <body id="<%=@bodyID%>">
 
     <div id="headerPrint">
       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
@@ -31,21 +31,14 @@
           <%= @jobTitleP2 %> </p>
     </div> <!-- header -->
     
-    <div id="centeredmenu">
-      <ul>
-        <li><%= link_to "Page 1", page_page1_path %></li>
-        <li><%= link_to "Page 2", page_page2_path %></li>
-        <li><%= link_to "Page 3", page_page3_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><%= link_to "Page 4", page_page4_path %></li>
-        <li><a href="/page/page1" class="active">Page 5</a></li>
-      </ul>
-    </div> <!-- centeredmenu -->
-
+<div id="centeredmenu">
+   <ul>
+      <li class = "page1" ><a href="http://localhost:3000/page/page1">Tab one</a></li>
+      <li class = "page2" ><a href="http://localhost:3000/page/page2">Tab two</a></li>
+      <li class = "page3" ><a href="http://localhost:3000/page/page3">Tab three</a></li>
+      <li class = "page4" ><a href="http://localhost:3000/page/page4">Tab four</a></li>
+   </ul>
+</div>
 
     <!-- ================================ -->
     <div class="colmask leftmenu">

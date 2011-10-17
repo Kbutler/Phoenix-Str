@@ -1,0 +1,15 @@
+/* ============ Start _rounded      ========================================== */
+
+@mixin roundCorners($side, $radius: 10px) {
+  border-#{$side}-radius: $radius;
+  -moz-border-radius-#{$side}: $radius;
+  -webkit-border-#{$side}-radius: $radius;
+}
+
+@mixin myrounded {
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+
+/* ============ End   _rounded      ========================================== */

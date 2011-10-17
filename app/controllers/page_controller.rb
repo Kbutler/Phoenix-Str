@@ -14,6 +14,7 @@ class PageController < ApplicationController
     @title         = "Home"
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_home.jpg"
+    @bodyID        = "page1"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img
     @fullName      = @@fullName
@@ -28,6 +29,7 @@ class PageController < ApplicationController
     @title         = "Kurse"
     @header_img    = "header_kurse.jpg"
     @wallpaper_img = "wallpaper_kurse.jpg"
+    @bodyID        = "page2"
     @welcome_img   = "welcome.gif"
     @signature_img = "kentenich_signature.gif"
     @logo_img      = @@locallogo_img
@@ -44,6 +46,7 @@ class PageController < ApplicationController
     @title         = "Kentenich"
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_kentenich.jpg"
+    @bodyID        = "page3"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img
     @fullName      = @@fullName
@@ -58,6 +61,7 @@ class PageController < ApplicationController
     @title         = "Praxisteam"
     @header_img    = "header_praxisteam.jpg"
     @wallpaper_img = "wallpaper_praxisteam.jpg"
+    @bodyID        = "page4"
     @logo_img      = @@locallogo_img
     @favicon_img   = @@localfavicon_img
     @fullName      = @@fullName

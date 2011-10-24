@@ -13,12 +13,12 @@
 
     <div id="headerPrint">
       <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
-      <p class="headerPrintText"> <%= @fullName   %> <br/>
-          <%= @jobTitleP1 %> <br/> &amp
-          <%= @jobTitleP2 %> <br/>
-          <%= @address    %> <br/>
-          <%= @phoneNum   %> <br/>
-          <%= @faxNum     %>
+      <p class="headerPrintText"> <%= @full_name   %> <br/>
+          <%= @job_title_p1   %> <br/> &amp
+          <%= @job_title_p2   %> <br/>
+          <%= @address        %> <br/>
+          <%= @phone_number   %> <br/>
+          <%= @fax_number     %>
       </p> 
       <p class="headerPrintText"><br/><br/><br/>Thankyou for visiting www.WebAddress.de/ </p>
     </div>
@@ -26,9 +26,9 @@
     <div id="header">
       <%= image_tag(@logo_img,   :alt => "Missing logo",   :class => "logo_img") %>
       <%= image_tag(@header_img, :alt => "Missing Header", :class => "header_img") %>
-      <p> <%= @fullName   %> <br/>
-          <%= @jobTitleP1 %> <br/> &amp
-          <%= @jobTitleP2 %> </p>
+      <p> <%= @full_name    %> <br/>
+          <%= @job_title_p1 %> <br/> &amp
+          <%= @job_title_p2 %> </p>
     </div> <!-- header -->
     
 <div id="centeredmenu">
@@ -66,12 +66,12 @@
 
 
     <div id="footer">
-      <p> <%= @fullName   %>
-          <%= @jobTitleP1 %> &amp
-          <%= @jobTitleP2 %>
-          <%= @address    %>
-          <%= @phoneNum   %>
-          <%= @faxNum     %>
+      <p> <%= @full_name    %>
+          <%= @job_title_p1 %> &amp
+          <%= @job_title_p2 %>
+          <%= @address      %>
+          <%= @phone_number %>
+          <%= @fax_number   %>
       </p> 
     </div>
 

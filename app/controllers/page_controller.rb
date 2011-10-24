@@ -1,28 +1,11 @@
-class PageController < ApplicationController
+class PageController < ActorViewedPageController
   http_basic_authenticate_with :name => "phoenix", :password => "phoenix"
     
-  @@locallogo_img      = "logo.gif"
-  @@localfavicon_img   = 'favicon.ico'
-  @@fullName           = "Dr. Forename Surname"
-  @@address            = "Add Address Here"
-  @@jobTitleP1         = "Praxis fur Frauenheilkunde "
-  @@jobTitleP2         = "Geburtshilfe"
-  @@phoneNum           = "Tel: +11 123 456 789"
-  @@faxNum             = "Fax: +22 123 456 789"
-
   def page1
     @title         = "Home"
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_home.jpg"
     @bodyID        = "page1"
-    @logo_img      = @@locallogo_img
-    @favicon_img   = @@localfavicon_img
-    @fullName      = @@fullName
-    @address       = @@address
-    @phoneNum      = @@phoneNum
-    @faxNum        = @@faxNum
-    @jobTitleP1    = @@jobTitleP1
-    @jobTitleP2    = @@jobTitleP2
   end
 
   def page2
@@ -32,14 +15,6 @@ class PageController < ApplicationController
     @bodyID        = "page2"
     @welcome_img   = "welcome.gif"
     @signature_img = "kentenich_signature.gif"
-    @logo_img      = @@locallogo_img
-    @favicon_img   = @@localfavicon_img
-    @fullName      = @@fullName
-    @address       = @@address
-    @phoneNum      = @@phoneNum
-    @faxNum        = @@faxNum
-    @jobTitleP1    = @@jobTitleP1
-    @jobTitleP2    = @@jobTitleP2
   end
 
   def page3
@@ -47,14 +22,6 @@ class PageController < ApplicationController
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_kentenich.jpg"
     @bodyID        = "page3"
-    @logo_img      = @@locallogo_img
-    @favicon_img   = @@localfavicon_img
-    @fullName      = @@fullName
-    @address       = @@address
-    @phoneNum      = @@phoneNum
-    @faxNum        = @@faxNum
-    @jobTitleP1    = @@jobTitleP1
-    @jobTitleP2    = @@jobTitleP2
   end
 
   def page4
@@ -62,14 +29,6 @@ class PageController < ApplicationController
     @header_img    = "header_praxisteam.jpg"
     @wallpaper_img = "wallpaper_praxisteam.jpg"
     @bodyID        = "page4"
-    @logo_img      = @@locallogo_img
-    @favicon_img   = @@localfavicon_img
-    @fullName      = @@fullName
-    @address       = @@address
-    @phoneNum      = @@phoneNum
-    @faxNum        = @@faxNum
-    @jobTitleP1    = @@jobTitleP1
-    @jobTitleP2    = @@jobTitleP2
   end
 
 end

@@ -1,4 +1,5 @@
 PhoenixStr::Application.routes.draw do
+
   get "page/page1"
 
   get "page/page2"
@@ -6,6 +7,12 @@ PhoenixStr::Application.routes.draw do
   get "page/page3"
 
   get "page/page4"
+
+  scope '(:locale)' do
+    resources :admined_page1s
+    root :to => 'page#page1'
+  end
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -56,7 +63,6 @@ PhoenixStr::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-   root :to => 'page#page1'
 
   # See how all your routes lay out with "rake routes"
 

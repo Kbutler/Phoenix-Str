@@ -1,0 +1,29 @@
+<h1>Listing admined_page1s</h1>
+
+<table>
+  <tr>
+    <th>P1</th>
+    <th>P2</th>
+    <th>P3</th>
+    <th>Language</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @admined_page1s.each do |admined_page1| %>
+  <tr>
+    <td><%= admined_page1.p1 %></td>
+    <td><%= admined_page1.p2 %></td>
+    <td><%= admined_page1.p3 %></td>
+    <td><%= admined_page1.language %></td>
+    <td><%= link_to 'Show', admined_page1 %></td>
+    <td><%= link_to 'Edit', edit_admined_page1_path(admined_page1) %></td>
+    <td><%= link_to 'Destroy', admined_page1, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Admined page1', new_admined_page1_path %>

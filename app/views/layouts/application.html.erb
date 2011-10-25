@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>PhoenixStr. | <%= @title %></title>
+    <title>PhoenixStr. | <%= t('.title') %></title>
     <%= favicon_link_tag @favicon_img %>
     <%= stylesheet_link_tag    "application", :media => "screen" %>
     <%= javascript_include_tag "application" %>
@@ -12,10 +12,10 @@
   <body id="<%=@bodyID%>">
 
     <div id="headerPrint">
-      <%= image_tag(@logo_img,  :alt => "Missing logo", :class => "logo_print_img") %>
+      <%= image_tag(@logo_img,  :alt => t('.err_msg01'), :class => "logo_print_img") %>
       <p class="headerPrintText"> <%= @full_name   %> <br/>
-          <%= @job_title_p1   %> <br/> &amp
-          <%= @job_title_p2   %> <br/>
+          <%= t('.job_title_p1') %> <br/> &amp
+          <%= t('.job_title_p2') %> <br/>
           <%= @address        %> <br/>
           <%= @phone_number   %> <br/>
           <%= @fax_number     %>
@@ -24,19 +24,19 @@
     </div>
     
     <div id="header">
-      <%= image_tag(@logo_img,   :alt => "Missing logo",   :class => "logo_img") %>
-      <%= image_tag(@header_img, :alt => "Missing Header", :class => "header_img") %>
+      <%= image_tag(@logo_img,   :alt => t('.err_msg01'),   :class => "logo_img") %>
+      <%= image_tag(@header_img, :alt => t('.err_msg02'), :class => "header_img") %>
       <p> <%= @full_name    %> <br/>
-          <%= @job_title_p1 %> <br/> &amp
-          <%= @job_title_p2 %> </p>
+          <%= t('.job_title_p1') %> <br/> &amp
+          <%= t('.job_title_p2') %> </p>
     </div> <!-- header -->
     
 <div id="centeredmenu">
    <ul>
-      <li class = "page1"><a <%= link_to "Tab one",   page_page1_path %></a></li>
-      <li class = "page2"><a <%= link_to "Tab two",   page_page2_path %></a></li>
-      <li class = "page3"><a <%= link_to "Tab three", page_page3_path %></a></li>
-      <li class = "page4"><a <%= link_to "Tab four",  page_page4_path %></a></li>
+      <li class = "page1"><a <%= link_to t('.tab1'), page_page1_path %></a></li>
+      <li class = "page2"><a <%= link_to t('.tab2'), page_page2_path %></a></li>
+      <li class = "page3"><a <%= link_to t('.tab3'), page_page3_path %></a></li>
+      <li class = "page4"><a <%= link_to t('.tab4'), page_page4_path %></a></li>
 
    </ul>
 </div>
@@ -46,13 +46,14 @@
       <div class="colleft">
         <div class="col1">
           <!-- Column 1 start -->
+          <!--<p>From DataBase == <%=  @para1 %> </p>-->
           <%= yield %>
           <!-- Column 1 end -->
         </div> <!-- class "col1" -->
 
         <div class="col2">
           <!-- Column 2 start -->
-          <%= image_tag(@wallpaper_img, :alt => "Missing Header", :class => "wallpaper_img") %>
+          <%= image_tag(@wallpaper_img, :alt => t('.err_msg03'), :class => "wallpaper_img") %>
           <!-- Column 2 end -->
         </div> <!-- class = "col2" -->
       </div> <!-- class = "colleft" -->
@@ -67,8 +68,8 @@
 
     <div id="footer">
       <p> <%= @full_name    %>
-          <%= @job_title_p1 %> &amp
-          <%= @job_title_p2 %>
+          <%= t('.job_title_p1') %> &amp
+          <%= t('.job_title_p2') %>
           <%= @address      %>
           <%= @phone_number %>
           <%= @fax_number   %>

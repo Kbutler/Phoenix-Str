@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  p1: MyText
+  p2: MyText
+  p3: MyText
+  language: MyString
+
+two:
+  p1: MyText
+  p2: MyText
+  p3: MyText
+  language: MyString

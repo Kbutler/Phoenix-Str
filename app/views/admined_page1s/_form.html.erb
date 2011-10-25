@@ -1,0 +1,33 @@
+<%= form_for(@admined_page1) do |f| %>
+  <% if @admined_page1.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@admined_page1.errors.count, "error") %> prohibited this admined_page1 from being saved:</h2>
+
+      <ul>
+      <% @admined_page1.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :p1 %><br />
+    <%= f.text_area :p1 %>
+  </div>
+  <div class="field">
+    <%= f.label :p2 %><br />
+    <%= f.text_area :p2 %>
+  </div>
+  <div class="field">
+    <%= f.label :p3 %><br />
+    <%= f.text_area :p3 %>
+  </div>
+  <div class="field">
+    <%= f.label :language %><br />
+    <%= f.text_field :language %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,19 +1,23 @@
-<h1>Christina Heading 1 Example</h1>
-<h2>Christina Heading 2 Example</h2>
-<h3>Christina Heading 3 Example</h3>
+<h1><%= t('yield_page1.h1_ex1') %> </h1>
+<h2><%= t('yield_page1.h1_ex2') %> </h2>
+<h3><%= t('yield_page1.h1_ex3') %> </h3>
 
-<h1>Christina Heading 1 Example</h1>
+<h1><%= t('yield_page1.h1_ex1') %> </h1>
 <p>With a paragraph of text.</p>
 
-<h2>Christina Heading 2 Example</h2>
+<h2><%= t('yield_page1.h1_ex2') %> </h2>
 <p>With a paragraph of text.</p>
 
-<h3>Christina Heading 3 Example</h3>
+<h3><%= t('yield_page1.h1_ex3') %> </h3>
 <p>With a paragraph of text.</p>
 
-<h1>Christina Heading 1 Example</h1>
+<h1><%= t('yield_page1.h1_ex1') %> </h1>
 <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
 
 <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
 
 <p>With a paragraph of text that is vry long so that is goes outside the width of the screen. This way the screen can be resized and the user can see that this line of test will be wrapped around automatically onto the next lone, therefore negating the need for any horizontal scroll bars, which are particularly annoying when you are using a small hand help mobile phone.</p>
+
+<% @admined_page1s.each do |admined_page1| %>
+  <h3><%= admined_page1.p1%></h3>
+<% end %>

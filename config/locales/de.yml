@@ -1,0 +1,21 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+de:
+  layouts:
+    application:
+      title:              'Heim'
+      err01_missing_logo: 'Fehlendes Firmenzeichen'
+      job_title_p1:       'Praxis für Frauenheilkunde '
+      job_title_p2:       'Geburtshilfe'
+      tab1:               'Tab Eins'
+      tab2:               'Tab Zwei'
+      tab3:               'Tab Drei'
+      tab4:               'Tab Vier'
+      err_msg01:          'Fehlendes Firmenzeichen'
+      err_msg02:          'Fehlende Überschrift'
+      err_msg03:          'Fehlende Abbildung'
+  yield_page1:
+    h1_ex1:             'Kentenich Überschrift z.b 1'
+    h1_ex2:             'Kentenich Überschrift z.b 2'
+    h1_ex3:             'Kentenich Überschrift z.b 3'
+

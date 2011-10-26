@@ -4,9 +4,9 @@ de:
   layouts:
     application:
       title:              'Heim'
-      err01_missing_logo: 'Fehlendes Firmenzeichen'
       job_title_p1:       'Praxis für Frauenheilkunde '
       job_title_p2:       'Geburtshilfe'
+      thankyou_msg:       'Danke für das Besuchen von www.WebAddress.de/'
       tab1:               'Tab Eins'
       tab2:               'Tab Zwei'
       tab3:               'Tab Drei'
@@ -15,7 +15,9 @@ de:
       err_msg02:          'Fehlende Überschrift'
       err_msg03:          'Fehlende Abbildung'
   yield_page1:
-    h1_ex1:             'Kentenich Überschrift z.b 1'
-    h1_ex2:             'Kentenich Überschrift z.b 2'
-    h1_ex3:             'Kentenich Überschrift z.b 3'
+    h1_ex1:             'Kentenich Überschrift 1'
+    h2_ex2:             'Kentenich Überschrift 2'
+    h3_ex1:             'Kentenich Überschrift 3'
+    p_ex1:              'Hallo von Deutschland'
+    p_ex2:              'Auf Deutsch nicht so land weil ich die Satz nicht schreiben kann.'
 

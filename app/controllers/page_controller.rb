@@ -7,6 +7,10 @@ class PageController < ActorViewedPageController
   end
 
   def page1
+    if params[:set_locale]
+      redirect_to store_path(locale: params[:set_locale])
+    end
+
     @title         = "Home"
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_home.jpg"

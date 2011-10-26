@@ -24,14 +24,14 @@
     </div>
     
     <div id="header">
+
       <%= image_tag(@logo_img,   :alt => t('.err_msg01'), :class => "logo_img") %>
       <%= image_tag(@header_img, :alt => t('.err_msg02'), :class => "header_img") %>
       <p> <%= @full_name    %> <br/>
           <%= t('.job_title_p1') %> <br/> &amp
           <%= t('.job_title_p2') %> </p>
-    </div> <!-- header -->
 
-    <div id="banner">
+      <div id="banner">
       <%= form_tag store_path, class: 'locale' do %>
         <%= select_tag 'set_locale',
           options_for_select(LANGUAGES, I18n.locale.to_s), onchange: 'this.form.submit()' %>
@@ -40,6 +40,7 @@
       <% end %>
     </div>
 
+    </div> <!-- header -->
 
 
 <div id="centeredmenu">

@@ -3,7 +3,6 @@
 de:
   layouts:
     application:
-      title:              'Heim'
       job_title_p1:       'Praxis für Frauenheilkunde '
       job_title_p2:       'Geburtshilfe'
       thankyou_msg:       'Danke für das Besuchen von www.WebAddress.de/'
@@ -11,6 +10,7 @@ de:
       tab2:               'Tab Zwei'
       tab3:               'Tab Drei'
       tab4:               'Tab Vier'
+  error_messages:
       err_msg01:          'Fehlendes Firmenzeichen'
       err_msg02:          'Fehlende Überschrift'
       err_msg03:          'Fehlende Abbildung'
@@ -20,4 +20,13 @@ de:
     h3_ex1:             'Kentenich Überschrift 3'
     p_ex1:              'Hallo von Deutschland'
     p_ex2:              'Auf Deutsch nicht so land weil ich die Satz nicht schreiben kann.'
-
+  yield_page2:
+    t1:                 'wir freuen uns, Sie in unserer ganzheitlich ausgerichteten Praxis für Frauenheilkunde und Geburtshilfe begrüßen zu dürfen.'
+    t2:                 'Mit diesem Internetauftritt möchten wir Ihnen unser Behandlungsangebot sowie die Organisation unserer Praxis vorstellen.'
+    t3:                 'Es erwarten Sie'
+    t4:                 '- motivierte Mitarbeiterinnen eines patientinnenorientierten Praxisteams'
+    t5:                 '- eine kompetente Ärztin in den Gesundheits- und Krankheitsfragen der Frauenheilkunde und insbesondere der pränatalen Medizin (pränatale Diagnostik, DEGUM Stufe II).'
+    t6:                 'Wir möchten Sie mit hochwertiger Medizin in jeder Lebensphase begleiten. Sorgfältige Vorsorge, aber auch zeitgemäße Diagnostik und Therapie im Erkrankungsfall stellen unseren medizinischen Arbeitsanspruch für Sie als unsere Patientin dar.'
+    t7:                 'Einige unserer Leistungen sind IGeL-Leistungen (Individuelle Gesundheitsleistungen) und daher von den gesetzlichen Krankenkassen nicht erstattungspflichtig.'
+    t8:                 'Bitte fragen Sie uns, wir beraten Sie gerne.'
+    t9:                 'Ihre Frauenärztin mit dem Praxisteam'

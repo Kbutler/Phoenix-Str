@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :get_full_name
   def get_full_name
-    @full_name = "Forename Surename"
+    @full_name = "Dr med. Forename Surename"
   end
 
   before_filter :get_logo_img

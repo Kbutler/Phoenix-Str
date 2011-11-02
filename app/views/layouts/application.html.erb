@@ -2,7 +2,7 @@
 <html>
 
   <head>
-    <title>PhoenixStr. | <%= t('.title') %></title>
+    <title>PhoenixStr. | <%= @title %></title>
     <%= favicon_link_tag @favicon_img %>
     <%= stylesheet_link_tag    "application", :media => "screen" %>
     <%= javascript_include_tag "application" %>
@@ -12,7 +12,7 @@
   <body id="<%=@bodyID%>">
 
     <div id="headerPrint">
-      <%= image_tag(@logo_img,  :alt => t('.err_msg01'), :class => "logo_print_img") %>
+      <%= image_tag(@logo_img,  :alt => t('error_messages.err_msg01'), :class => "logo_print_img") %>
       <p class="headerPrintText"> <%= @full_name   %> <br/>
           <%= t('.job_title_p1') %> <br/> &amp
           <%= t('.job_title_p2') %> <br/>
@@ -25,8 +25,8 @@
     
     <div id="header">
 
-      <%= image_tag(@logo_img,   :alt => t('.err_msg01'), :class => "logo_img") %>
-      <%= image_tag(@header_img, :alt => t('.err_msg02'), :class => "header_img") %>
+      <%= image_tag(@logo_img,   :alt => t('error_messages.err_msg01'), :class => "logo_img") %>
+      <%= image_tag(@header_img, :alt => t('error_messages.err_msg02'), :class => "header_img") %>
       <p> <%= @full_name    %> <br/>
           <%= t('.job_title_p1') %> <br/> &amp
           <%= t('.job_title_p2') %> </p>
@@ -65,7 +65,7 @@
 
         <div class="col2">
           <!-- Column 2 start -->
-          <%= image_tag(@wallpaper_img, :alt => t('.err_msg03'), :class => "wallpaper_img") %>
+          <%= image_tag(@wallpaper_img, :alt => t('error_messages.err_msg03'), :class => "wallpaper_img") %>
           <!-- Column 2 end -->
         </div> <!-- class = "col2" -->
       </div> <!-- class = "colleft" -->

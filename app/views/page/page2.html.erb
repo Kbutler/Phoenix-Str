@@ -1,7 +1,19 @@
-<h1>Page 2</h1>
-<%= image_tag(@welcome_img,    :alt => "Missing logo", :class => "info_img") %>
-<p>
-page 2 
-</p>
-<%= image_tag(@signature_img,  :alt => "Missing logo", :class => "infi_img") %>
+<%= image_tag(@welcome_img,    :alt => t('error_messages.err_msg01'), :class => "info_img") %>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<p><%= t('yield_page2.t1') %> </p>
+<p><%= t('yield_page2.t2') %> </p>
+<p><%= t('yield_page2.t3') %> </p>
+<p><%= t('yield_page2.t4') %> </p>
+<p><%= t('yield_page2.t5') %> </p>
+<p><%= t('yield_page2.t6') %> </p>
+<p><%= t('yield_page2.t7') %> </p>
+<p><%= t('yield_page2.t8') %> </p>
+<%= image_tag(@signature_img,  :alt => t('error_messages.err_msg01'), :class => "infi_img") %>
+<h2><%= t('yield_page2.t9') %> </h2>
+<h2><%= @full_name %></h2>
 

@@ -1,5 +1,7 @@
 PhoenixStr::Application.routes.draw do
 
+  get "log_in" => "admin_session#new", :as => "log_in"
+
   get "page/page1"
 
   get "page/page2"
@@ -8,7 +10,10 @@ PhoenixStr::Application.routes.draw do
 
   get "page/page4"
 
+
+  resources :admin_session
   scope '(:locale)' do
+   
     resources :admined_page1s
     #root :to => 'page#page1'
     root to: 'page#page1', as: 'store'

@@ -22,23 +22,25 @@
       </p> 
       <p class="headerPrintText"><br/><br/><br/><%= t('.thankyou_msg') %> </p>
     </div>
-    
+
+
     <div id="header">
 
       <%= image_tag(@logo_img,   :alt => t('error_messages.err_msg01'), :class => "logo_img") %>
       <%= image_tag(@header_img, :alt => t('error_messages.err_msg02'), :class => "header_img") %>
       <p> <%= @full_name    %> <br/>
           <%= t('.job_title_p1') %> <br/> &amp
-          <%= t('.job_title_p2') %> </p>
+          <%= t('.job_title_p2') %>
+      </p>
 
       <div id="banner">
-      <%= form_tag store_path, class: 'locale' do %>
-        <%= select_tag 'set_locale',
-          options_for_select(LANGUAGES, I18n.locale.to_s), onchange: 'this.form.submit()' %>
-        <%= submit_tag 'submit' %>
-        <%= javascript_tag "$('.locale input').hide()" %>
-      <% end %>
-    </div>
+        <%= form_tag store_path, class: 'locale' do %>
+          <%= select_tag 'set_locale',
+            options_for_select(LANGUAGES, I18n.locale.to_s), onchange: 'this.form.submit()' %>
+          <%= submit_tag 'submit' %>
+          <%= javascript_tag "$('.locale input').hide()" %>
+        <% end %>
+      </div>
 
     </div> <!-- header -->
 

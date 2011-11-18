@@ -11,19 +11,6 @@
     
   <body id="<%=@bodyID%>">
 
-    <div id="headerPrint">
-      <%= image_tag(@logo_img,  :alt => t('error_messages.err_msg01'), :class => "logo_print_img") %>
-      <p class="headerPrintText"> <%= @full_name   %> <br/>
-          <%= t('.job_title_p1') %> <br/> &amp
-          <%= t('.job_title_p2') %> <br/>
-          <%= @address        %> <br/>
-          <%= @phone_number   %> <br/>
-          <%= @fax_number     %>
-      </p> 
-      <p class="headerPrintText"><br/><br/><br/><%= t('.thankyou_msg') %> </p>
-    </div>
-
-
     <div id="header">
 
       <%= image_tag(@logo_img,   :alt => t('error_messages.err_msg01'), :class => "logo_img") %>

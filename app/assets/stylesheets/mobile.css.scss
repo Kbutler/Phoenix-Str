@@ -4,20 +4,7 @@
 @import "fonts";
 @import "paras";
 
-.headerPrintText{
-  text-decoration: none;
-  padding:0;
-  margin:.4em 0 .8em 0;
-  line-height: 18px;
-  font-size: $p-size;
-  @include font-style;
-  color:$p-color;
-}
 
-h1, h2, h3{
-  color:$palette-color2o;
-}
-
-#header, .wallpaper_img, #centeredmenu, #footer {
+.header_img, .wallpaper_img {
   display : none; 
 }

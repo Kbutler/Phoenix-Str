@@ -11,6 +11,7 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'therubyracer'
+  gem 'gem-ctags'
 end
 
 gem 'heroku'

@@ -47,6 +47,7 @@ GEM
     eventmachine (0.12.10)
     execjs (1.2.9)
       multi_json (~> 1.0)
+    gem-ctags (1.0.2)
     heroku (2.14.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
@@ -136,6 +137,7 @@ PLATFORMS
 DEPENDENCIES
   bcrypt-ruby
   coffee-rails (~> 3.1.0)
+  gem-ctags
   heroku
   jquery-rails
   pg

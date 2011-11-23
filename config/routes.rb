@@ -9,7 +9,6 @@ PhoenixStr::Application.routes.draw do
   get "page/page3"
   get "page/page4"
 
-  get "admined_page1s"
 
 
   resources :admin_session

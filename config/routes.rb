@@ -2,6 +2,8 @@ PhoenixStr::Application.routes.draw do
 
   get "log_in" => "admin_session#new", :as => "log_in"
 
+  get "log_out" => "admin_session#destroy", :as => "log_out"
+
   get "page/page1"
 
   get "page/page2"

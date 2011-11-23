@@ -1,7 +1,15 @@
 class AdminSessionController < ApplicationController
   def new
   end
-  
+
+  before_filter :get_session_vars
+  def get_session_vars
+    @title         = "Session Page"
+    @header_img    = "header_home.jpg"
+    @wallpaper_img = "wallpaper_home.jpg"
+    @bodyID        = "page1"
+  end
+
   def create
     user = AdminedLogin.authenticate(params[:name], params[:password], request.remote_ip )
     if user

@@ -17,6 +17,7 @@ end
 gem 'heroku'
 gem 'thin'
 gem 'bcrypt-ruby', :require => 'bcrypt'
+gem 'yaml_db'
 
 # Gems used only for assets and not required
 # in production environments by default.

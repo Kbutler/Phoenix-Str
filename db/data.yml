@@ -1,0 +1,48 @@
+
+---
+admined_page1s:
+  columns:
+  - id
+  - p1
+  - p2
+  - p3
+  - language
+  - created_at
+  - updated_at
+  records: 
+  - - 1
+    - ! "11111 paragraph\r\nhello renata this is the English paragraph 1\r\nwith a
+      change"
+    - ! "22222 paragraph\r\nhello this is the English paragraph 2"
+    - ! "3333333 paragraph\r\nhello this is the English paragraph 3"
+    - En
+    - '2011-10-24 11:14:19.359620'
+    - '2011-11-23 11:15:59.809621'
+  - - 2
+    - ! "11111 paragraph\r\nDeutsche paragraph 1\r\nmit versceidener text"
+    - ! "222222 paragraph\r\nDeutsche paragraph 2"
+    - ! "3333333 paragraph\r\nDeutsche paragraph 3"
+    - De
+    - '2011-10-24 11:15:21.144161'
+    - '2011-10-24 11:18:42.425809'
+
+---
+admined_logins:
+  columns:
+  - id
+  - name
+  - password_hash
+  - password_salt
+  - ip_hash
+  - ip_salt
+  - created_at
+  - updated_at
+  records: 
+  - - 4
+    - superpass
+    - $2a$10$mN5SSyBNkggDH0PZwehTz.lE9Pp4vgk3gqWwL.eUvn1YSPgc5/2We
+    - $2a$10$mN5SSyBNkggDH0PZwehTz.
+    - $2a$10$x9zygt0X5qOF9p22UdoH/uETtxqT5s47G7Hl8nLinKcEizPI32UZm
+    - $2a$10$x9zygt0X5qOF9p22UdoH/u
+    - '2011-11-11 12:45:54.112526'
+    - '2011-11-11 12:45:54.112526'

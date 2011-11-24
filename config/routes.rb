@@ -11,9 +11,9 @@ PhoenixStr::Application.routes.draw do
 
 
 
-  resources :admin_session
   scope '(:locale)' do
    
+    resources :admin_session
     resources :admined_page1s
     #root :to => 'page#page1'
     root to: 'page#page1', as: 'store'

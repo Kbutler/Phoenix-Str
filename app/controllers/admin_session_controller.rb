@@ -11,7 +11,7 @@ class AdminSessionController < ApplicationController
   end
 
   def create
-    user = AdminedLogin.authenticate(params[:name], params[:password], request.remote_ip )
+    user = AdminedLogin.authenticate(params[:name], params[:password] )
     if user
       session[:current_user_id] = user.id
       redirect_to admined_page1s_path, :notice => "Logged in!"

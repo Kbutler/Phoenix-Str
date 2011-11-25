@@ -11,14 +11,12 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111103085026) do
+ActiveRecord::Schema.define(:version => 20111124135610) do
 
   create_table "admined_logins", :force => true do |t|
     t.string   "name"
     t.string   "password_hash"
     t.string   "password_salt"
-    t.string   "ip_hash"
-    t.string   "ip_salt"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

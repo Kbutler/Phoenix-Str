@@ -6,7 +6,12 @@ class ActorAdminedPageController < ApplicationController
     @header_img    = "header_home.jpg"
     @wallpaper_img = "wallpaper_home.jpg"
     @bodyID        = "page1"
-  end
+
+    @page1_tab_link = admined_page1s_path
+    @page2_tab_link = admined_page1s_path
+    @page3_tab_link = admined_page1s_path
+    @page4_tab_link = admined_page1s_path
+   end
 
 
   before_filter :require_login

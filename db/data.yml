@@ -33,8 +33,6 @@ admined_logins:
   - name
   - password_hash
   - password_salt
-  - ip_hash
-  - ip_salt
   - created_at
   - updated_at
   records: 
@@ -42,7 +40,5 @@ admined_logins:
     - superpass
     - $2a$10$mN5SSyBNkggDH0PZwehTz.lE9Pp4vgk3gqWwL.eUvn1YSPgc5/2We
     - $2a$10$mN5SSyBNkggDH0PZwehTz.
-    - $2a$10$x9zygt0X5qOF9p22UdoH/uETtxqT5s47G7Hl8nLinKcEizPI32UZm
-    - $2a$10$x9zygt0X5qOF9p22UdoH/u
     - '2011-11-11 12:45:54.112526'
     - '2011-11-11 12:45:54.112526'

@@ -4,12 +4,8 @@ one:
   name: MyString
   password_hash: MyString
   password_salt: MyString
-  ip_hash: MyString
-  ip_salt: MyString
 
 two:
   name: MyString
   password_hash: MyString
   password_salt: MyString
-  ip_hash: MyString
-  ip_salt: MyString

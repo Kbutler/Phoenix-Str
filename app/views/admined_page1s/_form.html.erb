@@ -1,4 +1,9 @@
 <%= form_for(@admined_page1) do |f| %>
+
+  <div id="log_out_link_id">
+    <%= link_to "Log out", log_out_path %>
+  </div>
+
   <% if @admined_page1.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@admined_page1.errors.count, "error") %> prohibited this admined_page1 from being saved:</h2>
